@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-generate-template",
+  "version": "1.0.0",
+  "description": "a nuxt template for generate",
+  "author": "harvest_wang",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "node server"
+  },
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^7.0.0",
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "log4js": "^3.0.5",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
